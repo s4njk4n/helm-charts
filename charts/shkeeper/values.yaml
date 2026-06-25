@@ -348,6 +348,27 @@ ton_usdt:
 
 
 #
+# XDC
+#
+
+xdc_fullnode:
+  enabled: false
+  url: http://xdc:8989
+  mainnet: true
+  nodeSelector: {}
+  tolerations: []
+
+xdc_shkeeper: {}
+
+xdc:
+  enabled: false
+xdc_usdc:
+  enabled: false
+xdc_audd:
+  enabled: false
+
+
+#
 # AML
 #
 
